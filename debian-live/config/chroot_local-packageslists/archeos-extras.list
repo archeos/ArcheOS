@@ -1,4 +1,4 @@
 ## LH: Extra Archeos Packages
 #include <standard-x11>
 
-bundler efoto jsvr openjump pmvs2 saga stereo stippler udig totalopenstation
+bundler efoto jsvr openjump pmvs2 saga stereo stippler udig totalopenstation archeos-artwork
