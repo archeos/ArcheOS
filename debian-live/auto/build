@@ -1,0 +1,3 @@
+#!/bin/sh
+
+lh build noauto ${@} 2>&1 | tee binary.log

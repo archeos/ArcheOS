@@ -1,0 +1,29 @@
+#!/bin/sh
+#
+# Edit this file carefully!
+#
+#
+# MIRROR_DEBIAN=http://ftp.it.debian.org/debian
+# MIRROR_SECURITY=http://security.debian.org/
+
+lh config noauto \
+    --architecture i386 \
+    --apt-recommends false \
+    --apt-secure false \
+    -b iso \
+    --bootappend-live 'acpi_osi="Linux"' \
+    --distribution squeeze \
+    --archive-areas "main contrib non-free" \
+    --memtest none \
+    --hostname "ArcheOS" \
+    --debian-installer live \
+    --debian-installer-gui true \
+    --syslinux-splash "config/binary_syslinux/splash.rle" \
+    --syslinux-timeout 20 \
+    --mirror-binary "http://ftp.it.debian.org/debian" \
+    --mirror-binary-security "http://security.debian.org/" \
+    --mirror-bootstrap "http://ftp.it.debian.org/debian" \
+    --mirror-chroot  "http://localhost:3142/ftp.it.debian.org/debian/" \
+    --mirror-chroot-security "http://localhost:3142/security.debian.org/" \
+    ${@}
+

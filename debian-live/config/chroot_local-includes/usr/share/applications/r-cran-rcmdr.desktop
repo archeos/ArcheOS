@@ -1,0 +1,12 @@
+[Desktop Entry]
+Categories=Education;Science;Math;
+Comment=Graphical interface to the R environment for statistical computing
+Comment[fr]=Environnement graphique pour le logiciel de calcul statistique R
+Comment[it]=Interfaccia grafica per l'ambiente di calcolo statistico R
+Comment[de]=Graphische Umgebung fuer das R Programm fuer Statistische Berechnungen
+Exec=sh -c 'R_DEFAULT_PACKAGES="$R_DEFAULT_PACKAGES Rcmdr" R "$@"'
+Icon=/usr/lib/R/site-library/Rcmdr/etc/linux/Rcmdr.svg
+Name=R Commander
+Terminal=true
+Type=Application
+X-KDE-SubstituteUID=false

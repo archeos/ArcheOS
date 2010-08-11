@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<gconf>
+  <dir name="desktop">
+    <dir name="gnome">
+      <dir name="interface">
+	<entry name="gtk_theme" mtime="1269177738" type="string">
+	  <stringvalue>Darklooks</stringvalue>
+	</entry>
+      </dir>
+      <dir name="background">
+	<entry name="picture_options" mtime="1269177509" type="string">
+	  <stringvalue>scaled</stringvalue>
+	</entry>
+	<entry name="picture_filename" mtime="1269174789" type="string">
+	  <stringvalue>/usr/share/artwork/wallpapers/archeos_4_light_theme_vascolar_paint.jpg</stringvalue>
+	</entry>
+	<entry name="primary_color" mtime="1269177510" type="string">
+	  <stringvalue>#000000000000</stringvalue>
+	</entry>
+	<entry name="secondary_color" mtime="1269177511" type="string">
+	  <stringvalue>#000000000000</stringvalue>
+	</entry>
+      </dir>
+    </dir>
+  </dir>
+</gconf>

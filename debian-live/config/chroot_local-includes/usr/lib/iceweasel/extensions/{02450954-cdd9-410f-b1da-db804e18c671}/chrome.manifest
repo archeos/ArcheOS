@@ -1,0 +1,22 @@
+
+content screengrab jar:chrome/screengrab.jar!/content/
+content screengrab jar:chrome/screengrab.jar!/content/ contentaccessible=yes
+
+overlay chrome://browser/content/browser.xul    chrome://screengrab/content/screengrabOverlay.xul
+
+locale  screengrab  en-US jar:chrome/screengrab.jar!/locale/en-US/
+locale  screengrab  zh-CN jar:chrome/screengrab.jar!/locale/zh-CN/
+locale  screengrab  tr-TR jar:chrome/screengrab.jar!/locale/tr-TR/
+locale  screengrab  sl-SL jar:chrome/screengrab.jar!/locale/sl-SL/
+locale  screengrab  sk-SK jar:chrome/screengrab.jar!/locale/sk-SK/
+locale  screengrab  ru-RU jar:chrome/screengrab.jar!/locale/ru-RU/
+locale  screengrab  ko-KR jar:chrome/screengrab.jar!/locale/ko-KR/
+locale  screengrab  ja-JP jar:chrome/screengrab.jar!/locale/ja-JP/
+locale  screengrab  it-IT jar:chrome/screengrab.jar!/locale/it-IT/
+locale  screengrab  hu-HU jar:chrome/screengrab.jar!/locale/hu-HU/
+locale  screengrab  fr-FR jar:chrome/screengrab.jar!/locale/fr-FR/
+locale  screengrab  es-ES jar:chrome/screengrab.jar!/locale/es-ES/
+locale  screengrab  de-DE jar:chrome/screengrab.jar!/locale/de-DE/
+locale  screengrab  cs-CZ jar:chrome/screengrab.jar!/locale/cs-CZ/
+
+skin    screengrab  classic/1.0 jar:chrome/screengrab.jar!/skin/

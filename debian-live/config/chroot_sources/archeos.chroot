@@ -1,0 +1,3 @@
+# ARCHEOS REPOS
+deb     http://repos.archeos.eu/apt  caesar main contrib non-free
+
