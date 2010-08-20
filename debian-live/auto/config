@@ -9,7 +9,6 @@
 lh config noauto \
     --architecture i386 \
     --apt-recommends false \
-    --apt-secure false \
     -b iso \
     --bootappend-live 'acpi_osi="Linux"' \
     --distribution squeeze \
