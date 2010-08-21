@@ -4,7 +4,7 @@
 vim less screen gnupg dash posh emacs23-nox build-essential flashplugin-nonfree default-jre openjdk-6-jdk
 ssh openssh-server openssh-client
 iceweasel pidgin kate kcalc k3d rar unrar openoffice.org recordmydesktop gtk-recordmydesktop subtitlecomposer camstream
-plotdrop kalzium labplot gpsbabel gpsbabel-gui
+plotdrop kalzium labplot gpsbabel gpsbabel-gui paraview
 qcad postgis grass gpsd gpsdrive blender enblend inkscape icedove marble kompozer meshlab tellico scribus whitedune kile dia gimp freecad libnetpbm10 python-serial python-setuptools qgis qgis-plugin-grass
 r-base r-cran-aplpack r-cran-rcmdr r-cran-rodbc r-cran-plotrix r-cran-hmisc r-cran-leaps r-cran-rfoc r-cran-circstats r-cran-spgrass6 r-cran-spatstat r-cran-rgl r-cran-relimp r-cran-multcomp r-cran-lmtest r-cran-effects r-cran-abind
 sqlite3 postgresql phppgadmin spatialite-bin libspatialite2
