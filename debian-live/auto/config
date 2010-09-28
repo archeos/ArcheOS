@@ -6,7 +6,7 @@
 # MIRROR_DEBIAN=http://ftp.it.debian.org/debian
 # MIRROR_SECURITY=http://security.debian.org/
 
-lh config noauto \
+lb config noauto \
     --architecture i386 \
     --apt-recommends false \
     -b iso \
@@ -24,5 +24,6 @@ lh config noauto \
     --mirror-bootstrap "http://localhost:3142/ftp.it.debian.org/debian" \
     --mirror-chroot  "http://localhost:3142/ftp.it.debian.org/debian/" \
     --mirror-chroot-security "http://localhost:3142/security.debian.org/" \
+    --clean \
     ${@}
 
