@@ -7,9 +7,9 @@
 # MIRROR_SECURITY=http://security.debian.org/
 
 lb config noauto \
+    --clean \
     --architecture i386 \
     --apt-recommends false \
-    -b iso \
     --bootappend-live 'acpi_osi="Linux"' \
     --distribution squeeze \
     --archive-areas "main contrib non-free" \
@@ -24,6 +24,5 @@ lb config noauto \
     --mirror-bootstrap "http://localhost:3142/ftp.it.debian.org/debian" \
     --mirror-chroot  "http://localhost:3142/ftp.it.debian.org/debian/" \
     --mirror-chroot-security "http://localhost:3142/security.debian.org/" \
-    --clean \
     ${@}
 
