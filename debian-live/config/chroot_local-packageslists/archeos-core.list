@@ -1,7 +1,7 @@
 ## LH: Standard Archeos Packages
 #include <standard-x11>
 
-vim less screen gnupg dash posh emacs23-nox build-essential default-jre openjdk-6-jdk network-manager-gnome cups pciutils gqview vlc system-config-printer xsane k3b nautilus-image-converter gvfs-backends
+vim less screen gnupg dash posh emacs23-nox build-essential default-jre openjdk-6-jdk network-manager-gnome cups pciutils gqview vlc system-config-printer xsane k3b nautilus-image-converter gvfs-backends gnome-system-tools
 ssh openssh-server openssh-client
 iceweasel pidgin kate kcalc k3d rar unrar openoffice.org recordmydesktop gtk-recordmydesktop subtitlecomposer camstream
 plotdrop kalzium labplot gpsbabel gpsbabel-gui paraview makehuman-alpha
