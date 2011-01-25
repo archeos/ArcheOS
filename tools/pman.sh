@@ -16,7 +16,7 @@ elif [ $1 == "-b" ]; then
     find . | xargs file | grep "executable" | grep ELF | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null
     find . | xargs file | grep "shared object" | grep ELF | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null
     echo "   * Generating the md5sum file..."
-    md5sum $(find . -type f | grep -v '^\.\/DEBIAN/') > DEBIAN/md5sums
+    find . -path ./DEBIAN -prune -o \! -type l | xargs file | grep -v 'directory' | cut -f 1 -d : | xargs md5sum > DEBIAN/md5sums
     cd ..
     echo "   * And finally let's buld the package!'"
     dpkg -b $pack_name $pack_name.deb
