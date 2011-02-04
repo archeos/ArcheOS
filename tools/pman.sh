@@ -7,8 +7,6 @@ if [ $1 == "-x" ]; then
     dpkg --control $2 $PACKAGE_NAME/DEBIAN
     dpkg -x $2 $PACKAGE_NAME
 elif [ $1 == "-b" ]; then
-    echo "   * Setting permissions..."
-    sudo chown -R root:root $2
     echo "   * Removing trailing slash (if present)..."
     pack_name=$(echo "$2" | sed -e "s/\/*$//")
     cd $pack_name
@@ -20,7 +18,7 @@ elif [ $1 == "-b" ]; then
     find . -path ./DEBIAN -prune -o \! -type l | xargs file | grep -v 'directory' | cut -f 1 -d : | xargs md5sum > DEBIAN/md5sums
     cd ..
     echo "   * And finally let's buld the package!'"
-    dpkg -b $pack_name $pack_name.deb
+    fakeroot dpkg-deb --build $pack_name $pack_name.deb
     echo
     echo
     lintian $pack_name.deb
