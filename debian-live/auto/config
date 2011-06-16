@@ -8,6 +8,7 @@
 
 lb config noauto \
     --clean \
+    -b iso \
     --architecture i386 \
     --apt-recommends false \
     --bootappend-live 'acpi_osi="Linux"' \
