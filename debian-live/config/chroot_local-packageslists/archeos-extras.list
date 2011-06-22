@@ -2,6 +2,6 @@
 #include <standard-x11>
 
 efoto jsvr openjump saga stereo stippler stippler-gui udig totalopenstation gvsig geoserver corina ppt ppt-gui insight3dng meshlab
-archeos-artwork archeos-menu archeos-manual
-
+archeos-artwork archeos-menu archeos-manual 
+xul-ext-sqlitemanager
 
