@@ -1,7 +1,7 @@
 ## LH: Extra Archeos Packages
 #include <standard-x11>
 
-efoto jsvr openjump saga stereo stippler stippler-gui udig totalopenstation gvsig geoserver corina ppt ppt-gui insight3dng meshlab makehuman-alpha
+efoto jsvr openjump stereo stippler stippler-gui udig totalopenstation gvsig geoserver corina ppt ppt-gui insight3dng meshlab makehuman-alpha
 archeos-artwork archeos-menu archeos-manual 
 xul-ext-sqlitemanager xul-ext-zotero
 
