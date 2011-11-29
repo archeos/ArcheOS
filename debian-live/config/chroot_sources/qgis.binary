@@ -1,0 +1,5 @@
+# QGIS REPOS
+deb     http://debian.gfoss.it/ squeeze main
+deb-src http://debian.gfoss.it/ squeeze main
+
+
