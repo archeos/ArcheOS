@@ -22,7 +22,7 @@ lb config noauto \
     --syslinux-timeout 20 \
     --backports true \
     --mirror-binary-backports "http://backports.debian.org/debian-backports" \
-    --mirror-chroot-backports "http://localhost:3142:backports.debian.org/debian-backports" \
+    --mirror-chroot-backports "http://localhost:3142/backports.debian.org/debian-backports" \
     --mirror-binary "http://ftp.it.debian.org/debian" \
     --mirror-binary-security "http://security.debian.org/" \
     --mirror-bootstrap "http://localhost:3142/ftp.it.debian.org/debian" \
