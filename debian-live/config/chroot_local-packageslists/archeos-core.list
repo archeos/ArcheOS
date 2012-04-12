@@ -9,5 +9,5 @@ freecad libfontconfig libqt3-headers postgis grass grass-doc saga gpsd gpsdrive 
 r-base r-cran-aplpack r-cran-rcmdr r-cran-rodbc r-cran-plotrix r-cran-hmisc r-cran-leaps r-cran-rfoc r-cran-circstats r-cran-spgrass6 r-cran-spatstat r-cran-rgl r-cran-relimp r-cran-multcomp r-cran-lmtest r-cran-effects r-cran-abind r-cran-dbi
 sqlite3 sqlitebrowser postgresql-8.4-postgis postgresql phppgadmin pgadmin3 spatialite-bin libspatialite2
 gnome-themes-extras gnome-media synaptic gcalctool baobab jabref jabref-plugin-oo josm
-
+unixodbc unixodbc-bin libsqlite0 
 
