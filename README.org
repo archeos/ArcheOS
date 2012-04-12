@@ -10,7 +10,7 @@ All this software must be installed and properly configured
 
 ** Other requirements:
 *** A working debian (squeeze/wheezy) system to do the build (obviously)
-*** Ability to be superuser on the debian machine
+*** Ability to be superuser on the debian machine (eg. to use sudo)
 *** At least 5GB of free space
 *** (optional) a virtualization software such as qemu or virtualbox to test the iso
 
