@@ -28,5 +28,8 @@ lb config noauto \
     --mirror-bootstrap "http://localhost:3142/ftp.it.debian.org/debian" \
     --mirror-chroot  "http://localhost:3142/ftp.it.debian.org/debian" \
     --mirror-chroot-security "http://localhost:3142/security.debian.org/" \
+    --iso-application "ArcheOS" \
+    --iso-publisher "ArcheOS Team" \
+    --iso-volume "ArcheOS 4 CAESAR" \
     ${@}
 
