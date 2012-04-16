@@ -2,7 +2,7 @@
 #include <standard-x11>
 
 vim less screen gnupg dash posh emacs23-nox build-essential default-jre openjdk-6-jdk network-manager-gnome cups pciutils gqview vlc system-config-printer xsane k3b nautilus-image-converter gvfs-backends gnome-system-tools file-roller
-ssh openssh-server openssh-client libusb-dev usb-modeswitch usb-modeswitch-data
+openssh-client libusb-dev usb-modeswitch usb-modeswitch-data
 iceweasel pidgin kate kcalc k3d rar unrar openoffice.org recordmydesktop gtk-recordmydesktop subtitlecomposer camstream dvd+rw-tools pgdesigner alchemy
 plotdrop kalzium qtiplot gpsbabel gpsbabel-gui paraview
 freecad libfontconfig libqt3-headers postgis grass grass-doc saga gpsd gpsdrive blender enblend inkscape icedove marble kompozer tellico scribus whitedune texmaker texlive-fonts-extra texlive-latex-base texlive-latex-extra texlive-latex-recommended texlive-fonts-recommended dia gimp freecad pyqt4-dev-tools python-pivy python-qt4-gl python-opengl libnetpbm10 python-serial python-setuptools hplip
