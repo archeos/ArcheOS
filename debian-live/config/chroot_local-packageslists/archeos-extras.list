@@ -8,4 +8,5 @@ qgis qgis-plugin-grass
 libsqliteodbc
 spatialite-gis spatialite-gui
 r-cran-rsqlite
+archeos-system
 

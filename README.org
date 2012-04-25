@@ -5,14 +5,14 @@ To obtain help with ArcheOS please refer to wiki and mailing lists.
 ** Requisites:
 All this software must be installed and properly configured
 
-*** live-build 2.x (http://live.debian.net/devel/live-build/)
-*** apt-cacher-ng (http://www.unix-ag.uni-kl.de/~bloch/acng/)
+   1. live-build 2.x (http://live.debian.net/devel/live-build/)
+   2. apt-cacher-ng (http://www.unix-ag.uni-kl.de/~bloch/acng/)
 
 ** Other requirements:
-*** A working debian (squeeze/wheezy) system to do the build (obviously)
-*** Ability to be superuser on the debian machine (eg. to use sudo)
-*** At least 5GB of free space
-*** (optional) a virtualization software such as qemu or virtualbox to test the iso
+   1. A working debian (squeeze/wheezy) system to do the build (obviously)
+   2. Ability to be superuser on the debian machine (eg. to use sudo)
+   3. At least 5GB of free space
+   4. (optional) a virtualization software such as qemu or virtualbox to test the iso
 
 ** Build archeos
    1. Clone the git repository with
