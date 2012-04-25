@@ -7,4 +7,5 @@ xul-ext-sqlitemanager xul-ext-zotero
 qgis qgis-plugin-grass
 libsqliteodbc
 spatialite-gis spatialite-gui
+r-cran-rsqlite
 
