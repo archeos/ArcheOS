@@ -17,9 +17,10 @@ All this software must be installed and properly configured
 ** Build archeos
    1. Clone the git repository with
       git clone git://github.com/archeos/ArcheOS.git
-   2. Enter the ArcheOS directory
+   2. Enter the ArcheOS/debian-live directory
+      cd ArcheOS/debian-live/
    3. Launch the config command
-      lb config
+      sudo lb clean && lb config
    4. If no errors occured during the configuration launch the build command
       sudo lb build
       You have to wait a long time until the build is completed...
