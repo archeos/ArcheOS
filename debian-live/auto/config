@@ -5,6 +5,9 @@
 #
 # MIRROR_DEBIAN=http://ftp.it.debian.org/debian
 # MIRROR_SECURITY=http://security.debian.org/
+#    --hostname "ArcheOS" \
+#    --syslinux-splash "config/binary_syslinux/splash.rle" \
+#    --syslinux-timeout 20 \
 
 lb config noauto \
     --clean \
@@ -15,11 +18,8 @@ lb config noauto \
     --distribution squeeze \
     --archive-areas "main contrib non-free" \
     --memtest none \
-    --hostname "ArcheOS" \
     --debian-installer live \
     --debian-installer-gui true \
-    --syslinux-splash "config/binary_syslinux/splash.rle" \
-    --syslinux-timeout 20 \
     --backports true \
     --mirror-binary-backports "http://backports.debian.org/debian-backports" \
     --mirror-chroot-backports "http://localhost:3142/backports.debian.org/debian-backports" \
