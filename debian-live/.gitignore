@@ -16,9 +16,14 @@ config/common
 config/source
 
 .stage
+.build
+.lock
 
 source
 source.img
 source.iso
 source.list
 source.packages
+
+chroot.packages.install
+chroot.packages.live
