@@ -14,6 +14,8 @@
 #    --mirror-chroot-backports "http://localhost:3142/backports.debian.org/debian-backports" \
 
 lb config noauto \
+    --apt-ftp-proxy 'http://localhost:3142/' \
+    --apt-http-proxy 'http://localhost:3142/' \
     --clean \
     -b iso \
     --architecture i386 \
@@ -25,9 +27,9 @@ lb config noauto \
     --debian-installer-gui true \
     --mirror-binary "http://ftp.it.debian.org/debian" \
     --mirror-binary-security "http://security.debian.org/" \
-    --mirror-bootstrap "http://localhost:3142/ftp.it.debian.org/debian" \
-    --mirror-chroot  "http://localhost:3142/ftp.it.debian.org/debian" \
-    --mirror-chroot-security "http://localhost:3142/security.debian.org/" \
+    --mirror-bootstrap "http://ftp.it.debian.org/debian" \
+    --mirror-chroot  "http://ftp.it.debian.org/debian" \
+    --mirror-chroot-security "http://security.debian.org/" \
     --iso-application "ArcheOS" \
     --iso-publisher "ArcheOS Team" \
     --iso-volume "ArcheOS 4 Theodoric" \
