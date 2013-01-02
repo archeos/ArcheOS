@@ -5,6 +5,13 @@
 #
 # MIRROR_DEBIAN=http://ftp.it.debian.org/debian
 # MIRROR_SECURITY=http://security.debian.org/
+#    --hostname "ArcheOS" \
+#    --debian-installer live \
+#    --syslinux-splash "config/binary_syslinux/splash.rle" \
+#    --syslinux-timeout 20 \
+#    --backports true \
+#    --mirror-binary-backports "http://backports.debian.org/debian-backports" \
+#    --mirror-chroot-backports "http://localhost:3142/backports.debian.org/debian-backports" \
 
 lb config noauto \
     --clean \
@@ -12,17 +19,10 @@ lb config noauto \
     --architecture i386 \
     --apt-recommends false \
     --bootappend-live 'acpi_osi="Linux"' \
-    --distribution squeeze \
+    --distribution wheezy \
     --archive-areas "main contrib non-free" \
     --memtest none \
-    --hostname "ArcheOS" \
-    --debian-installer live \
     --debian-installer-gui true \
-    --syslinux-splash "config/binary_syslinux/splash.rle" \
-    --syslinux-timeout 20 \
-    --backports true \
-    --mirror-binary-backports "http://backports.debian.org/debian-backports" \
-    --mirror-chroot-backports "http://localhost:3142/backports.debian.org/debian-backports" \
     --mirror-binary "http://ftp.it.debian.org/debian" \
     --mirror-binary-security "http://security.debian.org/" \
     --mirror-bootstrap "http://localhost:3142/ftp.it.debian.org/debian" \
@@ -30,6 +30,6 @@ lb config noauto \
     --mirror-chroot-security "http://localhost:3142/security.debian.org/" \
     --iso-application "ArcheOS" \
     --iso-publisher "ArcheOS Team" \
-    --iso-volume "ArcheOS 4 CAESAR" \
+    --iso-volume "ArcheOS 4 Theodoric" \
     ${@}
 

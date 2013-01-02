@@ -1,7 +1,0 @@
-Package: libreoffice*
-Pin: release n=squeeze-backports
-Pin-Priority: 600
-Package: *
-Pin: release n=squeeze-backports
-Pin-Priority: 1
-
