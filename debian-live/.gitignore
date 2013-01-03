@@ -22,3 +22,5 @@ source.img
 source.iso
 source.list
 source.packages
+
+.build
