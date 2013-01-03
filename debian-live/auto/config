@@ -18,6 +18,7 @@ lb config noauto \
     --architecture i386 \
     --memtest none \
     --distribution wheezy \
+    --debian-installer live \
     --debian-installer-gui true \
     --archive-areas "main contrib non-free" \
     --apt-ftp-proxy 'http://localhost:3142/' \
