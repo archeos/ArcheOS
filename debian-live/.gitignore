@@ -24,3 +24,4 @@ source.list
 source.packages
 
 .build
+.lock
