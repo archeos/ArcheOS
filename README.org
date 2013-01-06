@@ -5,11 +5,11 @@ To obtain help with ArcheOS please refer to wiki and mailing lists.
 ** Requisites:
 All this software must be installed and properly configured
 
-   1. live-build 2.x (http://live.debian.net/devel/live-build/)
+   1. live-build 3.x (http://live.debian.net/devel/live-build/)
    2. apt-cacher-ng (http://www.unix-ag.uni-kl.de/~bloch/acng/)
 
 ** Other requirements:
-   1. A working debian (squeeze/wheezy) system to do the build (obviously)
+   1. A working debian (wheezy/sid) system to do the build (obviously)
    2. Ability to be superuser on the debian machine (eg. to use sudo)
    3. At least 5GB of free space
    4. (optional) a virtualization software such as qemu or virtualbox to test the iso
@@ -34,7 +34,7 @@ Rmemeber to run sudo lb clean --purge BEFORE launch again lb config to reset the
 original status
 
 ** Notes
-
+   
 
 
 
