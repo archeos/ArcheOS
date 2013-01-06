@@ -16,6 +16,8 @@ config/common
 config/source
 
 .stage
+.build
+.lock
 
 source
 source.img
@@ -25,3 +27,6 @@ source.packages
 
 .build
 .lock
+
+chroot.packages.install
+chroot.packages.live

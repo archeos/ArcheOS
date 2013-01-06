@@ -16,6 +16,10 @@ lb config noauto \
     --clean \
     -b iso-hybrid \
     --architecture i386 \
+    --apt-recommends false \
+    --bootappend-live 'acpi_osi="Linux"' \
+    --distribution squeeze \
+    --archive-areas "main contrib non-free" \
     --memtest none \
     --distribution wheezy \
     --debian-installer live \
