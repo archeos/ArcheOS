@@ -30,3 +30,5 @@ source.packages
 
 chroot.packages.install
 chroot.packages.live
+binary.contents
+binary.hybrid.iso.zsync
