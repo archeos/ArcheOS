@@ -3,3 +3,6 @@
 # This is the standard metapackage that installs the desktop environment + all software required by a standard desktop system (iceweasel, and so on)
 archeos-desktop
 
+# This should be needed by d-i to avoid the 'install failed into target'
+grub-pc
+
