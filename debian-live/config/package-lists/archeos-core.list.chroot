@@ -6,3 +6,10 @@ archeos-desktop
 # This should be needed by d-i to avoid the 'install failed into target'
 grub-pc
 
+# the following packages are installed only for testing purposes
+# Remove them before releasing ArcheOS as stable
+
+# integrate it into archeos-desktop
+sudo
+
+
