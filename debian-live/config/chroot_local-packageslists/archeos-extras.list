@@ -6,7 +6,7 @@ archeos-artwork archeos-menu archeos-manual
 xul-ext-sqlitemanager xul-ext-zotero
 qgis qgis-plugin-grass
 libsqliteodbc
-spatialite-gis spatialite-gui vtp
+vtp
 r-cran-rsqlite
 archeos-system
 
