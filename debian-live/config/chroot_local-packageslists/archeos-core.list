@@ -7,7 +7,7 @@ iceweasel pidgin kate kcalc k3d rar unrar openoffice.org recordmydesktop gtk-rec
 plotdrop kalzium qtiplot gpsbabel gpsbabel-gui paraview
 freecad librecad libfontconfig libqt3-headers postgis grass grass-doc saga gpsd gpsdrive blender enblend inkscape icedove marble kompozer tellico scribus whitedune texmaker texlive-fonts-extra texlive-latex-base texlive-latex-extra texlive-latex-recommended texlive-fonts-recommended dia gimp freecad pyqt4-dev-tools python-pivy python-qt4-gl python-opengl libnetpbm10 python-serial python-setuptools hplip
 r-base r-cran-aplpack r-cran-rcmdr r-cran-rodbc r-cran-plotrix r-cran-hmisc r-cran-leaps r-cran-rfoc r-cran-circstats r-cran-spgrass6 r-cran-spatstat r-cran-rgl r-cran-relimp r-cran-multcomp r-cran-lmtest r-cran-effects r-cran-abind r-cran-dbi
-sqlite3 sqlitebrowser postgresql-8.4-postgis postgresql phppgadmin pgadmin3 spatialite-bin libspatialite2
+sqlite3 sqlitebrowser postgresql-9.1-postgis postgresql phppgadmin pgadmin3 spatialite-bin libspatialite2
 gnome-themes-extras gnome-media synaptic gcalctool baobab jabref jabref-plugin-oo josm
 unixodbc unixodbc-bin libsqlite0 
 cups-driver-gutenprint python-lxml
