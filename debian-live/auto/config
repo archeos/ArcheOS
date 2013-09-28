@@ -29,6 +29,6 @@ lb config noauto \
     --mirror-chroot-security "http://security.debian.org/" \
     --iso-application "ArcheOS" \
     --iso-publisher "ArcheOS Team" \
-    --iso-volume "ArcheOS 4 Theodoric" \
+    --iso-volume "ArcheOS 5 Theodoric" \
     "${@}"
 
