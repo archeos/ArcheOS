@@ -1,12 +1,12 @@
 label live-@FLAVOUR@
-	menu label ^Live (@FLAVOUR@)
+	menu label ^Boot ArcheOS Live (@FLAVOUR@)
 	menu default
 	linux @LINUX@
 	initrd @INITRD@
 	append @APPEND_LIVE@
 
 label live-@FLAVOUR@-failsafe
-	menu label ^Live (@FLAVOUR@ failsafe)
+	menu label ^Boot ArcheOS Live (@FLAVOUR@ failsafe)
 	linux @LINUX@
 	initrd @INITRD@
 	append @APPEND_LIVE_FAILSAFE@
