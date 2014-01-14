@@ -2,19 +2,10 @@
 #
 # Edit this file carefully!
 #
-#
-# MIRROR_DEBIAN=http://ftp.it.debian.org/debian
-# MIRROR_SECURITY=http://security.debian.org/
-#    --hostname "ArcheOS" \
-#    --syslinux-splash "config/binary_syslinux/splash.rle" \
-#    --syslinux-timeout 20 \
-#    --mirror-binary-backports "http://backports.debian.org/debian-backports" \
-#    --mirror-chroot-backports "http://localhost:3142/backports.debian.org/debian-backports" \
 
 lb config noauto \
     --clean \
     -b iso-hybrid \
-    --architecture i386 \
     --memtest none \
     --distribution wheezy \
     --debian-installer live \
@@ -22,11 +13,12 @@ lb config noauto \
     --archive-areas "main contrib non-free" \
     --apt-ftp-proxy 'http://localhost:3142/' \
     --apt-http-proxy 'http://localhost:3142/' \
-    --mirror-binary "http://ftp.de.debian.org/debian" \
+    --mirror-binary "http://ftp.it.debian.org/debian" \
     --mirror-binary-security "http://security.debian.org/" \
-    --mirror-bootstrap "http://ftp.de.debian.org/debian" \
+    --mirror-bootstrap "http://ftp.it.debian.org/debian" \
     --mirror-chroot  "http://localhost:3142/ftp.de.debian.org/debian" \
     --mirror-chroot-security "http://security.debian.org/" \
+    --parent-mirror-bootstrap "http://localhost:3142/ftp.it.debian.org/debian" \
     --iso-application "ArcheOS" \
     --iso-publisher "ArcheOS Team" \
     --iso-volume "ArcheOS 5 Theodoric" \
