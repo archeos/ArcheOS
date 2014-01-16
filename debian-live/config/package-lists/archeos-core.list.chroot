@@ -1,5 +1,8 @@
 ## LH: Standard Archeos Packages
 
+# The archeos keyring
+archeos-keyring
+
 # This is the standard metapackage that installs the desktop environment + all software required by a standard desktop system (iceweasel, and so on)
 archeos-desktop
 
