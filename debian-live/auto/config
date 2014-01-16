@@ -10,6 +10,7 @@ lb config noauto \
     --distribution wheezy \
     --debian-installer live \
     --debian-installer-gui true \
+    --bootappend-live "boot=live config username=archeos hostname=archeosbox" \
     --archive-areas "main contrib non-free" \
     --apt-ftp-proxy 'http://localhost:3142/' \
     --apt-http-proxy 'http://localhost:3142/' \
