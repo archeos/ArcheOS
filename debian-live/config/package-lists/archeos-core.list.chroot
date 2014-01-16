@@ -6,18 +6,10 @@ archeos-desktop
 # This should be needed by d-i to avoid the 'install failed into target'
 grub-pc
 
-##### NOTE!!! #####
-# The following packages are installed only for testing purposes
-# Remove them or integrate it into the archeos-desktop metapackage
-# before releasing ArcheOS as stable
-###################
-
 # Installs archeos-manual
-# MUST GO INTO: archeos-desktop
 archeos-manual
 
 # The archeos-system package depends on all archeos- metapackages.
 # It is used also to upgrade archeos from one version to another
-# MUST GO INTO: archeos-desktop
 archeos-system
 
