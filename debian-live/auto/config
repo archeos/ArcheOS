@@ -10,6 +10,8 @@ lb config noauto \
     --distribution wheezy \
     --debian-installer live \
     --debian-installer-gui true \
+    --firmware-binary true \
+    --firmware-chroot true \
     --keyring-packages archeos-keyring \
     --bootappend-live "boot=live config username=archeos hostname=archeosbox" \
     --archive-areas "main contrib non-free" \
