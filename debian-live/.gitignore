@@ -14,6 +14,7 @@ config/bootstrap
 config/chroot
 config/common
 config/source
+config/build
 
 .stage
 .build
