@@ -1,19 +1,18 @@
 ## LH: Standard Archeos Packages
 
-# The archeos keyring
-archeos-keyring
-
 # This is the standard metapackage that installs the desktop environment 
 # + all software required by a standard desktop system (iceweasel, and so on)
-archeos-desktop archeos-tasks archeos-menu
+archeos-desktop
 
 # This should be needed by d-i to avoid the 'install failed into target'
 grub-pc
 
 # Installs archeos-manual
-archeos-manual
+# NOTE: now included into archeos-desktop-* dependencies
+# archeos-manual
 
 # The archeos-system package depends on all archeos- metapackages.
 # It is used also to upgrade archeos from one version to another
-archeos-system
+# NOTE: now included into archeos-desktop-* dependencies
+# archeos-system
 
