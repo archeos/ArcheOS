@@ -3,10 +3,23 @@
 # Edit this file carefully!
 #
 
+set -e
+
+case "$(dpkg --print-architecture)" in
+    amd64)
+        _LINUX_FLAVOURS="amd64"
+        ;;
+    i386)
+        _LINUX_FLAVOURS="486 686-pae"
+        ;;
+esac
+
 lb config noauto \
     --clean \
+    --ignore-system-defaults \
     -b iso-hybrid \
     --memtest none \
+    --linux-flavours "${_LINUX_FLAVOURS}" \
     --distribution wheezy \
     --debian-installer live \
     --debian-installer-gui true \
@@ -21,7 +34,7 @@ lb config noauto \
     --mirror-binary-security "http://security.debian.org/" \
     --mirror-bootstrap "http://ftp.it.debian.org/debian" \
     --mirror-chroot  "http://localhost:3142/ftp.de.debian.org/debian" \
-    --mirror-chroot-security "http://security.debian.org/" \
+    --mirror-chroot-security "http://localhost:3142/security.debian.org/" \
     --parent-mirror-bootstrap "http://localhost:3142/ftp.it.debian.org/debian" \
     --iso-application "ArcheOS" \
     --iso-publisher "ArcheOS Team" \
