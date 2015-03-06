@@ -33,7 +33,7 @@ lb config noauto \
     --mirror-binary "http://ftp.it.debian.org/debian" \
     --mirror-binary-security "http://security.debian.org/" \
     --mirror-bootstrap "http://ftp.it.debian.org/debian" \
-    --mirror-chroot  "http://localhost:3142/ftp.de.debian.org/debian" \
+    --mirror-chroot  "http://localhost:3142/ftp.it.debian.org/debian" \
     --mirror-chroot-security "http://localhost:3142/security.debian.org/" \
     --parent-mirror-bootstrap "http://localhost:3142/ftp.it.debian.org/debian" \
     --iso-application "ArcheOS" \
