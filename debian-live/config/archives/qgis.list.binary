@@ -1,5 +1,3 @@
 # QGIS REPOS
-deb     http://qgis.org/debian wheezy main
-deb-src http://qgis.org/debian wheezy main
-
-
+deb     http://qgis.org/debian jessie main
+deb-src http://qgis.org/debian jessie main

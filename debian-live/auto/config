@@ -6,29 +6,29 @@
 set -e
 
 lb config noauto \
-    --clean \
-    --ignore-system-defaults \
-    -b iso-hybrid \
-    --memtest none \
-    --linux-flavours "${_LINUX_FLAVOURS}" \
-    --distribution wheezy \
-    --debian-installer live \
-    --debian-installer-gui true \
-    --firmware-binary true \
-    --firmware-chroot true \
-    --keyring-packages archeos-keyring \
-    --bootappend-live "boot=live config username=archeos hostname=archeosbox" \
-    --archive-areas "main contrib non-free" \
-    --apt-ftp-proxy 'http://localhost:3142/' \
-    --apt-http-proxy 'http://localhost:3142/' \
-    --mirror-binary "http://ftp.it.debian.org/debian" \
-    --mirror-binary-security "http://security.debian.org/" \
-    --mirror-bootstrap "http://ftp.it.debian.org/debian" \
-    --mirror-chroot  "http://localhost:3142/ftp.it.debian.org/debian" \
-    --mirror-chroot-security "http://localhost:3142/security.debian.org/" \
-    --parent-mirror-bootstrap "http://localhost:3142/ftp.it.debian.org/debian" \
-    --iso-application "ArcheOS" \
-    --iso-publisher "ArcheOS Team" \
-    --iso-volume "ArcheOS 5 Theodoric" \
-    "${@}"
+   --clean \
+   --ignore-system-defaults \
+   -b iso-hybrid \
+   --memtest none \
+   --linux-flavours "${_LINUX_FLAVOURS}" \
+   --distribution jessie \
+   --debian-installer live \
+   --debian-installer-gui true \
+   --firmware-binary true \
+   --firmware-chroot true \
+   --keyring-packages archeos-keyring \
+   --bootappend-live "boot=live config username=archeos hostname=archeosbox" \
+   --archive-areas "main contrib non-free" \
+   --apt-ftp-proxy 'http://localhost:3142/' \
+   --apt-http-proxy 'http://localhost:3142/' \
+   --mirror-binary "http://ftp.it.debian.org/debian" \
+   --mirror-binary-security "http://security.debian.org/" \
+   --mirror-bootstrap "http://ftp.it.debian.org/debian" \
+   --mirror-chroot  "http://localhost:3142/ftp.it.debian.org/debian" \
+   --mirror-chroot-security "http://localhost:3142/security.debian.org/" \
+   --parent-mirror-bootstrap "http://localhost:3142/ftp.it.debian.org/debian" \
+   --iso-application "ArcheOS" \
+   --iso-publisher "ArcheOS Team" \
+   --iso-volume "ArcheOS 5 Theodoric" \
+   "${@}"
 
