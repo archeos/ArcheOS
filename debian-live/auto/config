@@ -29,6 +29,6 @@ lb config noauto \
    --parent-mirror-bootstrap "http://localhost:3142/ftp.it.debian.org/debian" \
    --iso-application "ArcheOS" \
    --iso-publisher "ArcheOS Team" \
-   --iso-volume "ArcheOS 5 Theodoric" \
+   --iso-volume "ArcheOS 6 Hypatia" \
    "${@}"
 
